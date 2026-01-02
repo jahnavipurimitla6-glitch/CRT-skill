@@ -1,0 +1,5 @@
+distance=int(input("Enter distance:"))
+horse1,horse2,horse3=map(int,input("Enter speed of 3 horses:").split())
+faster_speed = max(horse1,horse2,horse3)
+time=distance//faster_speed
+print(time)
